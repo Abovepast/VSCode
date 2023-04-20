@@ -8,5 +8,6 @@
         "memory": "cpp",
         "tuple": "cpp",
         "xstring": "cpp"
-    }
+    },
+    "liveServer.settings.port": 6023
 }
