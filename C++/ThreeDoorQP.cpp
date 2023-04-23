@@ -14,7 +14,7 @@ int main() {
 
     //不换门
     while(n--) {
-        j=rand()%3+1;   //你选择一扇门
+        j=rand()%3+1;//取一个随机数作为选择
         if(j==i) notChange++;
     }
 
