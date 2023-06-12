@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stamina</title>
+    <style>
+      div {
+        border-style: solid;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+      }
+
+      table {
+        text-align: center;
+      }
+
+      .button {
+        width: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <from action="process" method="post">
+        <h3>会员登录</h3>
+        <table align="center">
+          <tr>
+            <td>用户名：</td>
+            <td>
+              <input type="text" name="yourname" />
+            </td>
+          </tr>
+          <tr>
+            <td>密&nbsp;&nbsp;&nbsp;码：</td>
+            <td>
+              <input type="password" name="yourpassword" />
+            </td>
+          </tr>
+        </table>
+
+        <select name="vip">
+          <option value="person">个人会员</option>
+          <option value="extension">企业会员</option>
+          <option value="super">超级会员</option></select
+
+        ><br />
+
+        <table>
+          <tr>
+            <input type="submit" value="登录" class="button" />
+            <input type="reset" value="重设" class="button" />
+          </tr>
+        </table>
+      </from>
+    </div>
+  </body>
+</html>

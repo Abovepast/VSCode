@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stamina</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        .button {
+        width: 50px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.***.com" method="post">
+        <table border="1" align="center">
+            <th colspan="2" bgcolor="#0000"><font style="color:white;">■同城网在线调查</font></th>
+            <tr>
+                <td>你从哪里知道同城的</td>
+                <td>
+                    <select>
+                        <option value="web">网上搜索</option>
+                        <option value="friend">朋友介绍</option>
+                        <option value="advise">广告推荐</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>你正在使用的同城网服务</td>
+                <td>
+                    <input type="checkbox" name="sg[]" id="sg01" value="cmu" />免费社区
+                    <input type="checkbox" name="sg[]" id="sg02" value="text" />免费留言簿
+                    <input type="checkbox" name="sg[]" id="sg03" value="tick" />免费投票
+                </td>
+            </tr>
+            <tr>
+                <td>你希望我们提供哪些新服务</td>
+                <td>
+                    <input type="checkbox" name="sg1[]" id="sg101" value="talkroom" />聊天室
+                    <input type="checkbox" name="sg1[]" id="sg102" value="boke" />博客
+                    <input type="checkbox" name="sg1[]" id="sg103" value="gamesystem" />游戏系统
+                </td>
+            </tr>
+            <tr>
+                <td>你是同城网会员吗</td>
+                <td>
+                    <input type="radio" name="s1" id="yes" />是
+                    <input type="radio" name="s1" id="no" />不是
+                </td>
+            </tr>
+            <tr>
+                <td>你对同城网的意见</td>
+                <td>
+                    <textarea type="text" name="comment" id="c1"
+                        style="width: 98%; height: 160px; overflow-y: scroll"></textarea>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="提交" class="button"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

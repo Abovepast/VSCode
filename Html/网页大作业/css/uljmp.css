@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
+	user-select: none;
+}
+/*导航主体*/
+.box_axis {
+	width: 1200px;
+	height: 60px;
+	position: relative;
+	margin: 100px auto;
+	display: flex;
+	border-radius: 50px;
+	background: while;
+	padding: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+/* 导航选项 */
+.box_axis > div{
+	width: 240px;
+	height: 60px;
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 2;
+	color: black;
+	transition: all 0.3s;
+}
+
+/* 导航滑块 */
+.box_axis > .move {
+	display: inline-block;
+	width: 240px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	background: linear-gradient(to right, #f09819, #ff5858);
+	z-index: 1;
+	border-radius: 60px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s;
+}

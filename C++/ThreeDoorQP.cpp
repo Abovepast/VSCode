@@ -15,6 +15,11 @@ int main() {
     //不换门
     while(n--) {
         j=rand()%3+1;//取一个随机数作为选择
+        //if(j==i) notChange++;
+
+        k=rand()%3+1;   //主持人打开的那扇门        
+        while(k==j || k==i) k=rand()%3+1;   //当然k不会是有车的门（k!=i）,也不会是你开始选的门（k!=j）
+
         if(j==i) notChange++;
     }
 

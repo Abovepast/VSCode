@@ -6,7 +6,7 @@ const int N = 10;
 
 int n;
 int path[N];
-bool state[N]={0};
+bool state[N]={false};
 
 void dfs(int u)
 {
