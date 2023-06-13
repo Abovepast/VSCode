@@ -7,7 +7,7 @@
 }
 body{
     /* body高度为100%窗口高度 */
-    height: 500vh;
+    height: 450vh;
     width: 100%;
     /* 位置 */
     display: block;
@@ -15,7 +15,7 @@ body{
     /* text-align: center; */
     /* justify-content: center;
     flex-direction: column; */
-    margin-top: 10px;
+    
     /* padding-left: 400px; */
     /* text-align: center; */
     /* 阴影 */
