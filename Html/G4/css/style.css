@@ -8,7 +8,7 @@
 body{
     /* body高度为100%窗口高度 */
     height: 450vh;
-    width: 100%;
+    width: 1920px;
     /* 位置 */
     display: block;
      /* 纵向排列 */
