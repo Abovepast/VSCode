@@ -94,7 +94,7 @@ body{
     bottom: 0px;
     background: linear-gradient(to right, #f09819, #ff5858);
     border-radius: 30px;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 li:nth-child(1):hover ~ .slider,
