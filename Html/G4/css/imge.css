@@ -19,17 +19,15 @@
 .imgl{
     width: 240px;
     height: 240px;
+
+    padding: 40px;
+    margin: 20px;
+
     backdrop-filter: blur(4px);
     /*调整模糊程度*/background-color: rgba(e, e, e, 0.25);
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     float: right;
-    padding: 40px;
-    margin: 20px;
 }
 
 .imgl .goo {
@@ -68,4 +66,26 @@
     height: 260px;
     box-shadow: 0 0 0 rgba(0,0,0,0.2),    0 0 0 rgba(255,255,255,0.8),    inset 0px 5px 15px rgba(0, 0, 0, 0.25),    inset 0px -5px 15px rgba(255,255,255,1);
     transition: 0.3s;
+}
+
+.imgll{
+    width: 240px;
+    height: 320px;
+
+    display: block;
+
+    padding: 40px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    margin-left: 10px;
+
+    backdrop-filter: blur(4px);
+    /*调整模糊程度*/background-color: rgba(e, e, e, 0.25);
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
+
+    float: left;
 }

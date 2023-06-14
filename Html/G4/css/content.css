@@ -77,8 +77,8 @@
 
 .fback {
     position: fixed;
-    top: 91.5%;
-    right: 10px;
+    top: 90.5%;
+    right: 0px;
     width: 85px;
     height: 85px;
     background-color: #fff;
@@ -164,4 +164,48 @@ footer{
 
     border-radius: 30px;
 
+}
+
+.page_info {
+    width: 430px;
+    height: 360px;
+
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding: 20px; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    margin-left: 360px;
+    /* margin-left: -10px;  */
+
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 29px;
+
+
+
+    /*调整模糊程度*/
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.25);
+
+    border-radius: 30px;
+
+}
+.conlogo_info{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 840px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    backdrop-filter: blur(8px);
+    /*调整模糊程度*/background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
+    background: linear-gradient(to right,#eee,#a8edea);
 }
