@@ -1,0 +1,14 @@
+C:\XCCCC\VSCode\HelloCsharp\bin\Debug\net7.0\HelloCsharp.exe
+C:\XCCCC\VSCode\HelloCsharp\bin\Debug\net7.0\HelloCsharp.deps.json
+C:\XCCCC\VSCode\HelloCsharp\bin\Debug\net7.0\HelloCsharp.runtimeconfig.json
+C:\XCCCC\VSCode\HelloCsharp\bin\Debug\net7.0\HelloCsharp.dll
+C:\XCCCC\VSCode\HelloCsharp\bin\Debug\net7.0\HelloCsharp.pdb
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.AssemblyInfoInputs.cache
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.AssemblyInfo.cs
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.csproj.CoreCompileInputs.cache
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.dll
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\refint\HelloCsharp.dll
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.pdb
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\HelloCsharp.genruntimeconfig.cache
+C:\XCCCC\VSCode\HelloCsharp\obj\Debug\net7.0\ref\HelloCsharp.dll
